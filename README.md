@@ -5,7 +5,10 @@ Dette prosjektet er basert på React og benytter [Vite](https://vitejs.dev/) som
 
 Det anbefales å benytte [Visual Studio Code](https://code.visualstudio.com/)(gratis), evt annen IDE du kjenner. Du vil også trenge å ha installert *git*, *node* og *npm* på din maskin for å løse oppgaven.
 
-*Du bør ikke bruke mer enn 4 timer, så du rekker kanskje ikke alt eller alt du hadde tenkt du skulle gjøre. Står du fast, så kan du ta neste oppgave. Men du kan gjerne ha tenkt igjennom de gjenværende oppgavene, slik at du kan forklare hvordan du ville ha løst dem.
+> **Note:**<br />
+> Vite 5 støtter Node.js v.18/v.20+.<br />
+
+*Du bør ikke bruke mer enn maks 4 timer, så du rekker kanskje ikke alt eller alt du hadde tenkt du skulle gjøre. Står du fast, så kan du ta neste oppgave. Men du kan gjerne ha tenkt igjennom de gjenværende oppgavene, slik at du kan forklare hvordan du ville ha løst dem.
 Fokuser på struktur og kodekvalitet, fremfor å ha løst mest mulig oppgaver.*
 <br />
 <br />
