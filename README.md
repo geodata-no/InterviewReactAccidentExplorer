@@ -140,7 +140,7 @@ Har du kommet helt hit har du antagelig jobbet endel med React tidligere (har du
 <br />
 Så en siste utfordring følger:
 <br />
-Det eksisterer allerede en enkel test **HomeTask.test.jsx**. Lag en en ny testfil med en test av filtreringslogikken du lagde i oppgave 3.
+Det eksisterer allerede en enkel test **HomeTask.test.jsx**. Lag en en ny testfil med en test av filtreringslogikken du lagde i oppgave 4.
 [Vitest](https://vitest.dev/) og [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) er allerede satt opp.
 
 <br />
