@@ -57,9 +57,8 @@ git push -u origin main
    Naviger til ‘Settings’ > ‘Collaborators and teams’.
    Legg til de nødvendige samarbeidspartnerne:
 
-   - SverreGeodata
-   - Mariefalchorre
-   - Etomia
+   - jawade
+   - joernaa
 
 5. Begynn oppgaven fra din lokale kopi av repoet.
 
