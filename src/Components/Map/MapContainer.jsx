@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 // arcgis api
 import Point from '@arcgis/core/geometry/Point';
@@ -17,9 +17,11 @@ import './MapContainer.css';
 // Candidate does not need to change this file, or understand the map API used
 
 const MapContainer = ({ setAccidents, location }) => {
-  const [view, setView] = useState(null);
+  const getView = () => document.querySelector('arcgis-map').view;
 
   useEffect(() => {
+    const view = getView();
+
     if (view) {
       view.map.add(layerNVDB);
       view.whenLayerView(layerNVDB).then((layerView) => {
@@ -73,10 +75,12 @@ const MapContainer = ({ setAccidents, location }) => {
         );
       });
     }
-  }, [view]);
+  }, []);
 
   // // Task: goTo location in map
   useEffect(() => {
+    const view = getView();
+
     if (view && location) {
       view.graphics.removeAll();
 
@@ -102,15 +106,7 @@ const MapContainer = ({ setAccidents, location }) => {
   }, [location]);
 
   return (
-    <arcgis-map
-      onarcgisViewReadyChange={(e) => {
-        setView(e.target.view);
-      }}
-      extent={initExtent}
-      basemap={basemapNorway}
-      layers={[layerNVDB]}
-      style={{ width: '50%', height: '100%' }}
-    >
+    <arcgis-map extent={initExtent} basemap={basemapNorway} style={{ width: '50%', height: '100%' }}>
       <arcgis-zoom></arcgis-zoom>
     </arcgis-map>
   );
