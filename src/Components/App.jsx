@@ -8,10 +8,10 @@ function App() {
   const [location, setLocation] = useState(null);
 
   return (
-    <React.Fragment>
-      <Map setAccidents={setAccidents} location={location}/>
-      <HomeTask accidents={accidents} setLocation={setLocation}/>
-    </React.Fragment>
+    <div style={{ display: 'flex', height: '100vh' }}>
+      <Map setAccidents={setAccidents} location={location} />
+      <HomeTask accidents={accidents} setLocation={setLocation} />
+    </div>
   );
 }
 

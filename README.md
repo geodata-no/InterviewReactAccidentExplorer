@@ -6,7 +6,7 @@ Dette prosjektet er basert på React og benytter [Vite](https://vitejs.dev/) som
 Det anbefales å benytte [Visual Studio Code](https://code.visualstudio.com/)(gratis), evt annen IDE du kjenner. Du vil også trenge å ha installert _git_, _node_ og _npm_ på din maskin for å løse oppgaven.
 
 > **Note:**<br />
-> Vite 5 støtter Node.js v.18/v.20+.<br />
+> Vite 7 støtter Node.js v.20+.<br />
 
 _Du bør ikke bruke mer enn maks 4 timer, så du rekker kanskje ikke alt eller alt du hadde tenkt du skulle gjøre. Står du fast, så kan du ta neste oppgave. Men du kan gjerne ha tenkt igjennom de gjenværende oppgavene, slik at du kan forklare hvordan du ville ha løst dem.
 Fokuser på struktur og kodekvalitet, fremfor å ha løst mest mulig oppgaver._
@@ -57,8 +57,10 @@ git push -u origin main
    Naviger til ‘Settings’ > ‘Collaborators and teams’.
    Legg til de nødvendige samarbeidspartnerne:
 
-   - jawade
-   - joernaa
+   - sigurdskatvedt
+   - igustavsen
+   - bekkos
+   - mariefalchorre
 
 5. Begynn oppgaven fra din lokale kopi av repoet.
 
